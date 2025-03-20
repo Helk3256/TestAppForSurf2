@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основные цвета -->
+    <color name="black">#000000</color>
+    <color name="dark_grey">#8F8F8F</color>
+    <color name="light_grey">#D9D9D9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#00ACFF</color>
+    <color name="red">#FF4848</color>
+
+    <!-- Цвета для элементов UI -->
+    <color name="background_color">@color/white</color> <!-- Белый фон -->
+    <color name="primary_color">@color/blue</color> <!-- Основной цвет (например, синий) -->
+    <color name="accent_color">@color/red</color> <!-- Акцентный цвет (например, красный) -->
+    <color name="text_color">@color/black</color> <!-- Черный текст -->
+    <color name="hint_color">@color/dark_grey</color> <!-- Серый текст подсказки -->
+    <color name="search_background_color">@color/light_grey</color> <!-- Фон для поиска -->
+    <color name="card_background_color">@color/light_grey</color> <!-- Фон для карточек -->
+
+    <!-- Цвета для элементов UI -->
+    <color name="button_background">@color/blue</color> <!-- Фон кнопок -->
+    <color name="button_text">@color/white</color> <!-- Текст на кнопках -->
+    <color name="divider_color">@color/dark_grey</color> <!-- Цвет разделителей -->
+    <color name="error_color">@color/red</color> <!-- Цвет ошибок -->
+
+    <!-- Цвета для состояний -->
+    <color name="selected_color">@color/blue</color> <!-- Цвет выбранного элемента -->
+    <color name="disabled_color">@color/dark_grey</color> <!-- Цвет отключенного элемента -->
+
+    <!-- Цвета для иконок -->
+    <color name="icon_color">@color/black</color> <!-- Цвет иконок -->
+    <color name="icon_selected_color">@color/blue</color> <!-- Цвет выбранных иконок -->
+
+    <!-- Цвета для текста -->
+    <color name="title_color">@color/black</color> <!-- Цвет заголовков -->
+    <color name="subtitle_color">@color/dark_grey</color> <!-- Цвет подзаголовков -->
+</resources>

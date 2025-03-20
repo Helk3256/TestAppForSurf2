@@ -1,0 +1,31 @@
+<resources>
+    <!-- Общие строки -->
+    <string name="app_name">МоёКнижноеПриложение</string>
+    <string name="search_hint">Введите запрос для поиска</string>
+    <string name="no_results">Результаты не найдены</string>
+    <string name="network_error">Ошибка сети: %1$s</string>
+    <string name="http_error">HTTP ошибка: %1$s</string>
+    <string name="unexpected_error">Неожиданная ошибка: %1$s</string>
+
+    <!-- Строки для фрагментов -->
+    <string name="search_title">Поиск</string>
+    <string name="favorites_title">Избранное</string>
+
+    <!-- Строки для элементов UI -->
+    <string name="book_title">Название книги</string>
+    <string name="book_authors">Авторы</string>
+    <string name="no_title">Название отсутствует</string>
+    <string name="no_authors">Авторы отсутствуют</string>
+
+    <!-- Строки для навигации -->
+    <string name="search_menu">Поиск</string>
+    <string name="favorites_menu">Избранное</string>
+
+    <!-- Строки для ошибок -->
+    <string name="error_title">Ошибка</string>
+    <string name="error_message">Произошла ошибка: %1$s</string>
+
+    <!-- Строки для состояний -->
+    <string name="loading">Загрузка...</string>
+    <string name="no_favorites">Нет избранных книг</string>
+</resources>
