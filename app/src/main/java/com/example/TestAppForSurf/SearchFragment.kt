@@ -52,7 +52,7 @@ class SearchFragment : Fragment() {
         searchProgressBar = binding.searchProgressBar
 
         searchRecyclerView.layoutManager = LinearLayoutManager(context)
-        booksAdapter = BooksAdapter(mutableListOf<Volume>())
+        booksAdapter = BooksAdapter(mutableListOf<Volume>(), bookDao)
         searchRecyclerView.adapter = booksAdapter
 
         val retrofit = Retrofit.Builder()

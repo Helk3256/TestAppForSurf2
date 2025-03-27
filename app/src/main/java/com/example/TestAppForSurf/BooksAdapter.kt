@@ -83,7 +83,7 @@ class BooksAdapter(private var books: MutableList<Volume>, private val bookDao: 
             title = volume.volumeInfo?.title ?: "No Title",
             authors = volume.volumeInfo?.authors ?: emptyList(),
             isFavorite = false,
-            imageLinks = volume.volumeInfo?.imageLinks?.thumbnail ?: "", // Используем thumbnail или пустую строку
+            imageLinks = volume.volumeInfo?.imageLinks , // Используем thumbnail или пустую строку
             publishedDate = volume.volumeInfo?.publishedDate ?: "Unknown", // Используем publishedDate или "Unknown"
             description = volume.volumeInfo?.description ?: "No Description" // Используем description или "No Description"
         )

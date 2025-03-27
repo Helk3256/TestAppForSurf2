@@ -2,7 +2,6 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     kotlin("kapt")
-    alias(libs.plugins.hiltAndroid)
 }
 
 android {
@@ -53,12 +52,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
-    // Hilt
-    implementation(libs.hilt.android)  // Используем libs.hilt.android (именно так вы назвали ее в [libraries] в libs.versions.toml)
-    kapt(libs.hilt.compiler)         // Используем libs.hilt.compiler
-    kapt(libs.androidx.hilt.compiler) // Используем libs.androidx.hilt.compiler
-    implementation(libs.androidx.hilt.lifecycle.viewmodel) // Используем libs.androidx.hilt.lifecycle.viewmodel
 
 
     //Retrofit

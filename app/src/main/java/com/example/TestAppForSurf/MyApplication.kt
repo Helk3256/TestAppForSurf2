@@ -2,14 +2,10 @@ package com.example.TestAppForSurf
 
 import android.app.Application
 import androidx.room.Room
-import dagger.hilt.android.HiltAndroidApp
 
-@HiltAndroidApp
 class MyApplication : Application() {
 
-    companion object {
-        lateinit var database: BookDatabase
-    }
+    lateinit var database: BookDatabase
 
 
     override fun onCreate() {
